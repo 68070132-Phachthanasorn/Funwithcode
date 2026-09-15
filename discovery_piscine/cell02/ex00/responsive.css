@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+}
+td {
+    height: 100px;
+}
+
+.first {
+    background-color: lightgreen;
+}
+
+.second {
+    background-color: lightpink;
+}
