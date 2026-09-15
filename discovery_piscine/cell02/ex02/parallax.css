@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+}
+
+.image {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQtejNQMb0uBzYIA94hXYJVBKnBtgv_qI1ggKVopviA6UvpkP8kdT5Xg5g&s=10");
+}
+
+.image2 {
+    background-image: url("https://media.australian.museum/media/dd/thumbnails/images/Adelie_Penguin_Pygoscelis_adeliae_greghadley1.width-1600.7df198f.jpg");
+}
+
+.message {
+    background-color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.black {
+    height: 50vh;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+}
