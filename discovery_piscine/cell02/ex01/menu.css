@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.dropdown {
+    width: 200px;
+    margin: 50px auto;
+}
+
+.dropbtn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: pink;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
