@@ -13,7 +13,7 @@ $(document).ready(function() {
         const $todo = $('<div></div>').text(text);
         $todo.click(function() {
             if (confirm('Do you really want to delete this TO DO?')) {
-                $(this).remove(); // ลบ Element ออกจาก DOM
+                $(this).remove();
                 saveToDos();
             }
         });
